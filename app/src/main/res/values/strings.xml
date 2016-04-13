@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mood_App_V1_1</string>
+    <string name="enterYourName">Привет. Как тебя зовут?</string>
+    <string name="buttonGo">Получить совет</string>
+    <string name="buttonBack">Вернуться</string>
+    <string name="resultView">Второе activity!</string>
+    <string name="lkj">mainWindowApp</string>
+    <string name="lay2">lay2</string>
+    <string name="lay1">lay1</string>
+</resources>

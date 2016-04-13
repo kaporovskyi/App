@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.kap.mood_app_v1_1.MainActivity"
+    android:clickable="true">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgrounds"
+        android:background="@null"
+        android:id="@+id/wallpaper"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/lay1"
+        android:clickable="false" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:layout_marginLeft="90dp"
+        android:ems="10"
+        android:hint="@string/enterYourName"
+        android:textSize="20sp"
+        android:background="#00000000"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/buttonGo"
+        android:background="@drawable/button_normal"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

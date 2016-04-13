@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".MainActivityTwo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgrounds"
+        android:background="@null"
+        android:id="@+id/wallpaper"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:cropToPadding="false"
+        android:contentDescription="@string/lay2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resultView"
+        android:id="@+id/resultView"
+        android:ems="15"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonBack"
+        android:layout_alignStart="@+id/buttonBack"
+        android:layout_marginTop="115dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonBack"
+        android:id="@+id/buttonBack"
+        android:textSize="20sp"
+        android:background="@drawable/button_normal"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/resultView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
